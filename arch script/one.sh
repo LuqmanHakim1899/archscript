@@ -15,5 +15,7 @@ timedatectl set-ntp true
 lsblk
 #
 ##################################################################################################
+#skip to "select the mirrors"
+nano /etc/pacman.d/mirrorlist
 
 
