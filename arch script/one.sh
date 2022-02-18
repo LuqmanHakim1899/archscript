@@ -12,10 +12,5 @@ ping www.memes.com
 timedatectl set-ntp true
 #you can change later on gui
 #partition disk
-lsblk
-#
-##################################################################################################
-#skip to "select the mirrors"
-nano /etc/pacman.d/mirrorlist
-
-
+fdisk -l  
+yay "one make root partitions and than make a efi system partitions"
